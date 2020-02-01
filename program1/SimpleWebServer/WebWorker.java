@@ -93,7 +93,7 @@ private void readHTTPRequest(InputStream is)
                startingIndx++;
             }
             URL = sb.toString();
-            System.out.println("TGHIS IS THE FUCKING URL : " + URL);
+            System.out.println("TGHIS IS THE URL : " + URL);
          }
 
          System.err.println("Request line: ("+line+")");
